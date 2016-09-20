@@ -47,9 +47,7 @@
     NSPropertyListFormat format;
     // convert static property liost into dictionary object
     NSDictionary *temp = (NSDictionary *)[NSPropertyListSerialization
-                                          propertyListFromData:plistXML
-                                          mutabilityOption:NSPropertyListMutableContainersAndLeaves
-                                          format:&format errorDescription:&errorDesc];
+                                          propertyListWithData:plistXML options:NSPropertyListMutableContainers format:&format error:nil];
     if (!temp)
     {
         NSLog(@"Error reading plist: %@, format: %lu", errorDesc,
@@ -91,8 +89,7 @@
     NSString *error = nil;
     // create NSData from dictionary
     NSData *plistData = [NSPropertyListSerialization
-                         dataFromPropertyList:plistDict
-                         format:NSPropertyListXMLFormat_v1_0 errorDescription:&error];
+                         dataWithPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 options:NSPropertyListXMLFormat_v1_0 error:nil];
     
     // check is plistData exists
     if(plistData)

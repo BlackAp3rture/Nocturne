@@ -17,6 +17,9 @@
 		13D8EA8D1C2B12DA00AB945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D8EA8B1C2B12DA00AB945C /* LaunchScreen.storyboard */; };
 		13D8EA981C2B12DA00AB945C /* NocturneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D8EA971C2B12DA00AB945C /* NocturneTests.m */; };
 		13D8EAA31C2B12DA00AB945C /* NocturneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D8EAA21C2B12DA00AB945C /* NocturneUITests.m */; };
+		4A384076C7F06EA004F1AC9A /* libPods-NocturneUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E1487F10822C2DAED7A2E7 /* libPods-NocturneUITests.a */; };
+		6C890A67AD8603F7BEC2FB46 /* libPods-Nocturne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3DB1E9B8B5DE0B84763B3 /* libPods-Nocturne.a */; };
+		A7144E0EA13427909F314BA8 /* libPods-NocturneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124CE83F7C3902827D79CA9 /* libPods-NocturneTests.a */; };
 		E9E383B61D85B87800B6C4E0 /* AppIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E383B51D85B87800B6C4E0 /* AppIntegration.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E1487F10822C2DAED7A2E7 /* libPods-NocturneUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NocturneUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1124CE83F7C3902827D79CA9 /* libPods-NocturneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NocturneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1358F3991C59503600F7174C /* InsecureDataStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsecureDataStorage.h; sourceTree = "<group>"; };
 		1358F39C1C59507F00F7174C /* InsecureDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsecureDataStorage.m; sourceTree = "<group>"; };
 		1358F3A31C59640F00F7174C /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
@@ -58,6 +63,13 @@
 		13D8EA9E1C2B12DA00AB945C /* NocturneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NocturneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D8EAA21C2B12DA00AB945C /* NocturneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NocturneUITests.m; sourceTree = "<group>"; };
 		13D8EAA41C2B12DA00AB945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17421C60130065B8DDF0DB67 /* Pods-NocturneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NocturneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NocturneTests/Pods-NocturneTests.release.xcconfig"; sourceTree = "<group>"; };
+		18DC711A8CBD7430926910CD /* Pods-Nocturne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nocturne.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nocturne/Pods-Nocturne.release.xcconfig"; sourceTree = "<group>"; };
+		36C1F464AD4AF6CFD5B0BC0F /* Pods-NocturneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NocturneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NocturneUITests/Pods-NocturneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52C10C788A733B2BEBD3FC09 /* Pods-Nocturne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nocturne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nocturne/Pods-Nocturne.debug.xcconfig"; sourceTree = "<group>"; };
+		568ABADBF91829293A7784BC /* Pods-NocturneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NocturneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NocturneTests/Pods-NocturneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		978141B1F31B0EC21732E7EA /* Pods-NocturneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NocturneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NocturneUITests/Pods-NocturneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D3DB1E9B8B5DE0B84763B3 /* libPods-Nocturne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nocturne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E383B51D85B87800B6C4E0 /* AppIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppIntegration.m; sourceTree = "<group>"; };
 		E9E383B71D85B88300B6C4E0 /* AppIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppIntegration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C890A67AD8603F7BEC2FB46 /* libPods-Nocturne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7144E0EA13427909F314BA8 /* libPods-NocturneTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A384076C7F06EA004F1AC9A /* libPods-NocturneUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09BBC95B4127268DD852CA97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52C10C788A733B2BEBD3FC09 /* Pods-Nocturne.debug.xcconfig */,
+				18DC711A8CBD7430926910CD /* Pods-Nocturne.release.xcconfig */,
+				568ABADBF91829293A7784BC /* Pods-NocturneTests.debug.xcconfig */,
+				17421C60130065B8DDF0DB67 /* Pods-NocturneTests.release.xcconfig */,
+				36C1F464AD4AF6CFD5B0BC0F /* Pods-NocturneUITests.debug.xcconfig */,
+				978141B1F31B0EC21732E7EA /* Pods-NocturneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1358F3971C59464A00F7174C /* Insecure Data Storage */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +139,8 @@
 				13D8EA961C2B12DA00AB945C /* NocturneTests */,
 				13D8EAA11C2B12DA00AB945C /* NocturneUITests */,
 				13D8EA7B1C2B12DA00AB945C /* Products */,
+				09BBC95B4127268DD852CA97 /* Pods */,
+				364F156CFDD60B8A76FFD3C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +200,16 @@
 			path = NocturneUITests;
 			sourceTree = "<group>";
 		};
+		364F156CFDD60B8A76FFD3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D3DB1E9B8B5DE0B84763B3 /* libPods-Nocturne.a */,
+				1124CE83F7C3902827D79CA9 /* libPods-NocturneTests.a */,
+				02E1487F10822C2DAED7A2E7 /* libPods-NocturneUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9E383B41D85B84F00B6C4E0 /* App Integration */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13D8EAA71C2B12DA00AB945C /* Build configuration list for PBXNativeTarget "Nocturne" */;
 			buildPhases = (
+				BC3B9D59314BD416401F5204 /* [CP] Check Pods Manifest.lock */,
 				13D8EA761C2B12DA00AB945C /* Sources */,
 				13D8EA771C2B12DA00AB945C /* Frameworks */,
 				13D8EA781C2B12DA00AB945C /* Resources */,
+				99E0392DC010A12D3BA5F9BF /* [CP] Embed Pods Frameworks */,
+				DA3343E2D0027CF18AA1A158 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13D8EAAA1C2B12DA00AB945C /* Build configuration list for PBXNativeTarget "NocturneTests" */;
 			buildPhases = (
+				3FB7C89117CB4084F8926404 /* [CP] Check Pods Manifest.lock */,
 				13D8EA8F1C2B12DA00AB945C /* Sources */,
 				13D8EA901C2B12DA00AB945C /* Frameworks */,
 				13D8EA911C2B12DA00AB945C /* Resources */,
+				7B22D5521319FA0BB3190A12 /* [CP] Embed Pods Frameworks */,
+				6AD2384D0B7565EABAE03631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13D8EAAD1C2B12DA00AB945C /* Build configuration list for PBXNativeTarget "NocturneUITests" */;
 			buildPhases = (
+				E0728A23362C957E0020A295 /* [CP] Check Pods Manifest.lock */,
 				13D8EA9A1C2B12DA00AB945C /* Sources */,
 				13D8EA9B1C2B12DA00AB945C /* Frameworks */,
 				13D8EA9C1C2B12DA00AB945C /* Resources */,
+				3E134B65941A22BC80453B65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +364,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E134B65941A22BC80453B65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NocturneUITests/Pods-NocturneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB7C89117CB4084F8926404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD2384D0B7565EABAE03631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NocturneTests/Pods-NocturneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B22D5521319FA0BB3190A12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NocturneTests/Pods-NocturneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E0392DC010A12D3BA5F9BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nocturne/Pods-Nocturne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3B9D59314BD416401F5204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3343E2D0027CF18AA1A158 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nocturne/Pods-Nocturne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0728A23362C957E0020A295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13D8EA761C2B12DA00AB945C /* Sources */ = {
@@ -465,6 +636,7 @@
 		};
 		13D8EAA81C2B12DA00AB945C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C10C788A733B2BEBD3FC09 /* Pods-Nocturne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -480,6 +652,7 @@
 		};
 		13D8EAA91C2B12DA00AB945C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DC711A8CBD7430926910CD /* Pods-Nocturne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -495,6 +668,7 @@
 		};
 		13D8EAAB1C2B12DA00AB945C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568ABADBF91829293A7784BC /* Pods-NocturneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NocturneTests/Info.plist;
@@ -507,6 +681,7 @@
 		};
 		13D8EAAC1C2B12DA00AB945C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17421C60130065B8DDF0DB67 /* Pods-NocturneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NocturneTests/Info.plist;
@@ -519,6 +694,7 @@
 		};
 		13D8EAAE1C2B12DA00AB945C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C1F464AD4AF6CFD5B0BC0F /* Pods-NocturneUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NocturneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -531,6 +707,7 @@
 		};
 		13D8EAAF1C2B12DA00AB945C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978141B1F31B0EC21732E7EA /* Pods-NocturneUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NocturneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

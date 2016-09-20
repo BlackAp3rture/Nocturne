@@ -726,7 +726,6 @@
         <!--AppIntegration-->
         <scene sceneID="iYP-3z-cSR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nHf-dJ-umu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="BinaryProtections" id="Eud-wr-AIY" userLabel="AppIntegration" customClass="AppIntegration" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IyY-lk-WGq"/>
@@ -762,7 +761,7 @@
                                 <items>
                                     <barButtonItem systemItem="action" id="alo-DW-xo3">
                                         <connections>
-                                            <action selector="shareTweet:" destination="Eud-wr-AIY" id="dx3-Cf-5ff"/>
+                                            <action selector="shareTweet:" destination="Eud-wr-AIY" id="ztw-KP-vRI"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -797,17 +796,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="shareTweet" destination="alo-DW-xo3" id="7aZ-mi-a0e"/>
                         <outlet property="tweetTextView" destination="Xkq-gK-PCc" id="CBG-I2-icf"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHf-dJ-umu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4069" y="1135"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="zex-84-qa0"/>
-        <segue reference="4ZS-zY-GCl"/>
+        <segue reference="cdl-Fu-uQo"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
